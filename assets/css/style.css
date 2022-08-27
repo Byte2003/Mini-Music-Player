@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color: #ccc;
+}
+.hidden{
+    display: none;
+}
+.dashboard{
+    padding: 16px 16px 4px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    max-width: 480px;
+    border-bottom: 1px solid #ebebeb;
+    background-color: #fff;
+}
+.header{
+    text-align: center;
+}
+.header_playing{
+    color: #ea2658;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.cd-thumb{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    --size_cd:200px;
+    width: var(--size_cd);
+    height:var(--size_cd);
+    border-radius: 50%;
+    margin: 24px auto;
+}
+.btn-control{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+.btn{
+    font-size: 1.5rem;
+    color: #494949;
+}
+
+.playlist{
+    margin-top: 402px;
+    padding: 16px;
+    overflow-y: scroll;
+}
+#progress{
+    width: 100%;
+    margin-top:16px;
+}
+.song{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 16px;
+    margin: 8px 0;
+}
+.thumb{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    --size_cd:58px;
+    width: var(--size_cd);
+    height:var(--size_cd);
+    border-radius: 50%;
+}
+.title{
+    font-weight: 600;
+    text-align: center;
+}
+
+
