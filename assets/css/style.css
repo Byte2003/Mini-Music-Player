@@ -10,6 +10,9 @@ body{
 .hidden{
     display: none;
 }
+.active{
+    color: #ea2658;
+}
 .dashboard{
     padding: 16px 16px 4px;
     position: fixed;
@@ -44,7 +47,7 @@ body{
 }
 .btn{
     font-size: 1.5rem;
-    color: #494949;
+    /* color: #494949; */
 }
 
 .playlist{
@@ -63,6 +66,9 @@ body{
     background-color: #fff;
     padding: 8px 16px;
     margin: 8px 0;
+}
+.song:active{
+    opacity: 0.8;
 }
 .thumb{
     background-size: cover;
